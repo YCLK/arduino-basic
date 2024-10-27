@@ -50,10 +50,7 @@ void loop() {
 	- `analogWrite(핀 번호, HIGH/LOW)`를 통해서 출력이 이루어짐.
 - 아날로그 출력에서는 `analogWrite()`를 통해서 0V 또는 5V 값을 내보낼 수 있지만 디지털 출력에서는 `digitalWrite()`를 통해 0~255의 값을 내보낼 수 없음을 유의하자!
 
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
-
-> [!NOTE] 1번 과제를 수행해보자!
+> [!NOTE]
 > 1초 간격으로 켜졌다, 꺼졌다를 반복하도록 LED 회로와 아두이노 프로그램을 작성하시오.
 > > `digitalWrite()`함수와 `analogWrite()`함수는 토글(한번만 작동시켜도 작동 상태가 지속되는 방식)로 작동한다는 점과 `delay(시간, 단위는 ms)`함수에 유의하자!
 
